@@ -3,7 +3,7 @@
 
 
 <b> SUMMARY </b>
-The data set is structured so that there are 180 entries of summary data where each measurement variable represents the average of either the <i> mean or standard deviation variables</i>, calculated from test and training data. The original measurements were obtained from accelerometer and gyroscope sensor signals from a Samsung Galaxy S II smartphone placed around the waist of participants (subjects) to measure their movements while performing six different activities. The data set is grouped first by Activity Description and then by Subject. For more information on the original data collection visit the [UCI Human Recognition Activity website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Source files used were subject, X_test, X_train, y_test, y_train and features.
+The data set is structured so that there are 180 entries of summary data where each measurement variable represents the average of either the <i> mean or standard deviation variables</i>, calculated from test and training data. The original measurements were obtained from accelerometer and gyroscope sensor signals from a Samsung Galaxy S II smartphone placed around the waist of participants (subjects) to measure their movements while performing six different activities. The data set is grouped first by Activity Description and then by Subject. For more information on the original data collection visit the [UCI Human Recognition Activity website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Source files used were subject_test, subject_train, X_test, X_train, y_test, y_train and features.
 
 <b> VARIABLE...DESCRIPTION...VALUES </b>
 
