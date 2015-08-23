@@ -1,9 +1,9 @@
 ## Tidy Data Course Project 
 
 
-###Before you run the run.analysis.R script:
-<b>The goal was to make this easy to run without having to do a lot of groundwork first, or at all.</b> The script should be self-sufficient so all that is needed is to run the run.analysis.R script and it will fully take care of creating the tidy data set.
-<br> 1)	The run.analysis.R script will download the data into the current working directory, and unzip it. The current working directory will then contain the features.txt file, the test folder and the train folder which contain the rest of the data. The script will maneuver through those folders to access the needed files. If for some reason the download process does not work for a specific computer, download and unzip the files and start the program from the point the files are already downloaded - should be at line <i>fldr <- "UCI HAR Dataset"</i>, after the packages are loaded.
+###Before you run the run_analysis.R script:
+<b>The goal was to make this easy to run without having to do a lot of groundwork first, or at all.</b> The script should be self-sufficient so all that is needed is to run the run_analysis.R script and it will fully take care of creating the tidy data set.
+<br> 1)	The run_analysis.R script will download the data into the current working directory, and unzip it. The current working directory will then contain the features.txt file, the test folder and the train folder which contain the rest of the data. The script will maneuver through those folders to access the needed files. If for some reason the download process does not work for a specific computer, download and unzip the files and start the program from the point the files are already downloaded - should be at line <i>fldr <- "UCI HAR Dataset"</i>, after the packages are loaded.
 <br> 2)	The script does not assume that packages are loaded and therefore will load the following packages as the first step of the script: The LaF package greatly reduces the reading of the large fixed width tables. The dplyr and plyr are loaded so that tbl_df can run - which suppresses large amounts of printing so you only see a manageable amount of information on the screen.
 <br> install.packages("LaF")
 <br> install.packages("dplyr")
